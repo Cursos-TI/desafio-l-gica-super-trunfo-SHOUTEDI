@@ -1,0 +1,77 @@
+# Jogo de Comparação de super Trunfo paises
+
+Este é um jogo de comparação de cartas de países, onde você pode comparar dois países com base em diferentes atributos, como população, área, PIB, pontos turísticos, densidade populacional e super poder. O jogador pode escolher entre usar cartas pré-definidas (como Brasil e Estados Unidos) ou inserir os próprios dados para cada carta.
+
+## Funcionalidades
+
+- O jogador escolhe dois atributos para comparar entre os países.
+- O jogo calcula a soma dos valores dos atributos e exibe quem venceu a rodada.
+- O jogador pode optar por usar cartas pré-definidas ou fornecer os dados para criar as cartas.
+
+## Como Executar
+
+1. Abra o terminal e execute o teste do logicaSuperTrunfo.c
+
+Quando o jogo começar, você verá o menu inicial:
+
+Bem-vindo ao jogo de comparação de cartas!
+Escolha uma opção:
+1. Usar cartas pré-definidas (Brasil vs Estados Unidos)
+2. Digitar seus próprios dados para as cartas
+Escolha: 
+
+Se você escolher a opção 1, o programa usará as cartas do Brasil e Estados Unidos, com dados pré-definidos.
+
+Se você escolher a opção 2, o programa pedirá para você digitar os dados de dois países.
+
+Atributos Disponíveis para Comparação
+Durante o jogo, você poderá escolher dois atributos para comparar entre os países. Os atributos disponíveis são:
+
+População
+
+Área
+
+PIB
+
+Pontos Turísticos
+
+Densidade Populacional (quanto menor, melhor)
+
+Super Poder (um valor calculado baseado em outros atributos)
+
+Comparação dos Atributos
+O programa então exibirá os valores dos dois atributos para ambos os países e comparará. A carta com o maior valor em cada atributo será considerada vencedora daquele atributo. No caso da Densidade Populacional, vence a carta com o menor valor.
+
+Resultado da Rodada
+O jogo exibirá o resultado da comparação de forma clara, com os valores dos atributos e a carta vencedora.
+
+exemplo
+Escolha o primeiro atributo para comparação:
+1. População
+2. Área
+3. PIB
+4. Pontos Turísticos
+5. Densidade Populacional
+6. Super Poder
+Escolha: 1
+
+Escolha o segundo atributo para comparação:
+1. População
+2. Área
+3. PIB
+4. Pontos Turísticos
+5. Densidade Populacional
+6. Super Poder
+Escolha: 2
+
+Comparação entre os atributos: População e Área
+
+Brasil:
+Valor de População: 213993437
+Valor de Área: 8515767.00
+
+Estados Unidos:
+Valor de População: 331002651
+Valor de Área: 9833517.00
+
+Brasil vence a rodada!
